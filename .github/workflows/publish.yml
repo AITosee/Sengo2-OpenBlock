@@ -1,4 +1,3 @@
-
 name: Release
 
 on:
@@ -24,7 +23,7 @@ jobs:
       - name: Get current version
         id: get_version
         run: |
-          VERSION=$(node -e "console.log(require('./index.js')({id:()=>'',default:()=>''}).version)")
+          VERSION=$(node -e "console.log(require('./index.js')(msg => msg.default).version)")
           echo "version=$VERSION" >> $GITHUB_OUTPUT
           
       - name: Check version change
@@ -46,7 +45,7 @@ jobs:
         if: steps.check_version.outputs.should_release == 'true'
         run: |
           mkdir -p dist
-          zip -r dist/sengo2-${{ steps.get_version.outputs.version }}.zip . -x "*.git*" -x "*.github*" -x "dist/*"
+          zip -r dist/sengo2-${{ steps.get_version.outputs.version }}.zip . -x "*.git*" -x "*.md" -x "*.github*" -x "dist/*"
           
       - name: Create Release
         if: steps.check_version.outputs.should_release == 'true'
