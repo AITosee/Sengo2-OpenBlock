@@ -18,10 +18,8 @@ function registerBlocks(Blockly) {
         })?.getField("NO")?.getOptions() || []
     };
 
-    const board = Blockly.Device.getDeviceId();
     const serialPortOptions = getSerialPortOptions();
 
-    console.log(board);
     console.log(serialPortOptions);
 
     // 初始化Sengo2
