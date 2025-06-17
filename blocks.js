@@ -4,7 +4,7 @@
 
 
 // 块定义
-function registerBlocks(Blockly) {
+function addBlocks(Blockly) {
     // 定义颜色
     const set_color = '#EF5411';
     const set_secondaryColor = '#FF5309';
@@ -18,10 +18,8 @@ function registerBlocks(Blockly) {
         })?.getField("NO")?.getOptions() || []
     };
 
-    const board = Blockly.Device.getDeviceId();
     const serialPortOptions = getSerialPortOptions();
 
-    console.log(board);
     console.log(serialPortOptions);
 
     // 初始化Sengo2
@@ -796,4 +794,4 @@ function registerBlocks(Blockly) {
     return Blockly;
 }
 
-exports = registerBlocks; 
+exports = addBlocks; 

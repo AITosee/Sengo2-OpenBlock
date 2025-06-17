@@ -2,7 +2,7 @@
  * Sengo2视觉传感器代码生成器
  */
 
-function registerGenerators(Blockly) {
+function addGenerator(Blockly) {
     // 初始化Sengo2
     Blockly.Arduino.sengo2_begin = function() {
         const mode = this.getFieldValue('MODE');
@@ -248,4 +248,4 @@ function registerGenerators(Blockly) {
     return Blockly;
 }
 
-exports = registerGenerators; 
+exports = addGenerator; 

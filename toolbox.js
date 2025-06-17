@@ -2,7 +2,7 @@
  * Sengo2视觉传感器工具箱配置
  */
 
-function registerToolboxs() {
+function addToolbox() {
     return `
 <category name="%{BKY_SENGO2_CATEGORY}" id="SENGO2_CATEGORY" colour="#EF5411" secondaryColour="#CC4A0E">
     <label text="%{BKY_SENGO2_SETUP}"></label>
@@ -175,4 +175,4 @@ function registerToolboxs() {
 </category>`;
 }
 
-exports = registerToolboxs; 
+exports = addToolbox; 

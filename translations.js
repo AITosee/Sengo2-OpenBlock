@@ -17,7 +17,7 @@ function getInterfaceTranslations() {
 }
 
 // 块翻译
-function registerBlocksMessages(Blockly) {
+function addMsg(Blockly) {
     // 英文翻译
     Object.assign(Blockly.ScratchMsgs.locales["en"], {
         "SENGO2_CATEGORY": "Sengo2 Vision Sensor",
@@ -438,4 +438,4 @@ function registerBlocksMessages(Blockly) {
 if (typeof module !== 'undefined') {
     module.exports = {getInterfaceTranslations};
 }
-exports = registerBlocksMessages; 
+exports = addMsg; 
