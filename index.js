@@ -21,6 +21,7 @@ const sengo2 = formatMessage => ({
     blocks: 'blocks.js',
     generator: 'generator.js',
     toolbox: 'toolbox.js',
+    msg: 'translations.js',
     translations: 'translations.js',
     library: 'lib',
     tags: ['sensor', 'vision'],
