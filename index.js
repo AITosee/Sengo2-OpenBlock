@@ -5,7 +5,7 @@ const Sengo2 = formatMessage => ({
         description: 'name of Sengo2 vision sensor extension'
     }),
     extensionId: 'Sengo2',
-    version: '0.0.4',
+    version: '0.0.5',
     supportDevice: ['arduinoUno','arduinoUnoR4Wifi','arduinoUnoR4Minima', 'arduinoNano', 'arduinoLeonardo', 'arduinoMega2560', 
         'arduinoEsp32', 'arduinoEsp8266','arduinoEsp32S3',
         'arduinoK210','arduinoK210MaixDock','arduinoK210Maixduino','arduinoLeonardo',

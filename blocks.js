@@ -130,8 +130,7 @@ function registerBlocks(Blockly) {
                     },
                     {
                         type: 'input_value',
-                        name: 'LEVAL',
-                        check: 'Number'
+                        name: 'LEVAL'
                     }
                 ],
                 colour: set_color,
@@ -196,8 +195,7 @@ function registerBlocks(Blockly) {
                     },
                     {
                         type: 'input_value',
-                        name: 'NUM',
-                        check: 'Number'
+                        name: 'NUM'
                     }
                 ],
                 colour: set_color,
@@ -215,28 +213,23 @@ function registerBlocks(Blockly) {
                 args0: [
                     {
                         type: 'input_value',
-                        name: 'XVALUE',
-                        check: 'Number'
+                        name: 'XVALUE'
                     },
                     {
                         type: 'input_value',
-                        name: 'YVALUE',
-                        check: 'Number'
+                        name: 'YVALUE'
                     },
                     {
                         type: 'input_value',
-                        name: 'WIDTH',
-                        check: 'Number'
+                        name: 'WIDTH'
                     },
                     {
                         type: 'input_value',
-                        name: 'HIGHT',
-                        check: 'Number'
+                        name: 'HIGHT'
                     },
                     {
                         type: 'input_value',
-                        name: 'NUM',
-                        check: 'Number'
+                        name: 'NUM'
                     }
                 ],
                 colour: set_color,
@@ -254,13 +247,11 @@ function registerBlocks(Blockly) {
                 args0: [
                     {
                         type: 'input_value',
-                        name: 'WIDTH',
-                        check: 'Number'
+                        name: 'WIDTH'
                     },
                     {
                         type: 'input_value',
-                        name: 'HIGHT',
-                        check: 'Number'
+                        name: 'HIGHT'
                     },
                     {
                         type: 'field_dropdown',
@@ -276,8 +267,7 @@ function registerBlocks(Blockly) {
                     },
                     {
                         type: 'input_value',
-                        name: 'NUM',
-                        check: 'Number'
+                        name: 'NUM'
                     }
                 ],
                 colour: set_color,
@@ -312,33 +302,27 @@ function registerBlocks(Blockly) {
                     },
                     {
                         type: 'input_value',
-                        name: 'XVALUE',
-                        check: 'Number'
+                        name: 'XVALUE'
                     },
                     {
                         type: 'input_value',
-                        name: 'YVALUE',
-                        check: 'Number'
+                        name: 'YVALUE'
                     },
                     {
                         type: 'input_value',
-                        name: 'WIDTH',
-                        check: 'Number'
+                        name: 'WIDTH'
                     },
                     {
                         type: 'input_value',
-                        name: 'HIGHT',
-                        check: 'Number'
+                        name: 'HIGHT'
                     },
                     {
                         type: 'input_value',
-                        name: 'COLOR_LABLE',
-                        check: 'Number'
+                        name: 'COLOR_LABLE'
                     },
                     {
                         type: 'input_value',
-                        name: 'NUM',
-                        check: 'Number'
+                        name: 'NUM'
                     }
                 ],
                 colour: set_color,
@@ -356,8 +340,7 @@ function registerBlocks(Blockly) {
                 args0: [
                     {
                         type: 'input_value',
-                        name: 'MODE',
-                        check: 'Number'
+                        name: 'MODE'
                     }
                 ],
                 colour: set_color,
@@ -398,8 +381,7 @@ function registerBlocks(Blockly) {
                 args0: [
                     {
                         type: 'input_value',
-                        name: 'MODE',
-                        check: 'Number'
+                        name: 'MODE'
                     }
                 ],
                 colour: set_color,
@@ -433,8 +415,7 @@ function registerBlocks(Blockly) {
                     },
                     {
                         type: 'input_value',
-                        name: 'NUM',
-                        check: 'Number'
+                        name: 'NUM'
                     }
                 ],
                 colour: set_color,
@@ -493,8 +474,7 @@ function registerBlocks(Blockly) {
                     },
                     {
                         type: 'input_value',
-                        name: 'NUM',
-                        check: 'Number'
+                        name: 'NUM'
                     }
                 ],
                 colour: get_color,
@@ -536,8 +516,7 @@ function registerBlocks(Blockly) {
                     },
                     {
                         type: 'input_value',
-                        name: 'NUM',
-                        check: 'Number'
+                        name: 'NUM'
                     }
                 ],
                 colour: get_color,
@@ -566,8 +545,7 @@ function registerBlocks(Blockly) {
                     },
                     {
                         type: 'input_value',
-                        name: 'NUM',
-                        check: 'Number'
+                        name: 'NUM'
                     }
                 ],
                 colour: get_color,
@@ -595,8 +573,7 @@ function registerBlocks(Blockly) {
                     },
                     {
                         type: 'input_value',
-                        name: 'NUM',
-                        check: 'Number'
+                        name: 'NUM'
                     }
                 ],
                 colour: get_color,
@@ -638,8 +615,7 @@ function registerBlocks(Blockly) {
                     },
                     {
                         type: 'input_value',
-                        name: 'NUM',
-                        check: 'Number'
+                        name: 'NUM'
                     }
                 ],
                 colour: get_color,
@@ -669,8 +645,7 @@ function registerBlocks(Blockly) {
                     },
                     {
                         type: 'input_value',
-                        name: 'NUM',
-                        check: 'Number'
+                        name: 'NUM'
                     }
                 ],
                 colour: get_color,
@@ -700,8 +675,7 @@ function registerBlocks(Blockly) {
                     },
                     {
                         type: 'input_value',
-                        name: 'NUM',
-                        check: 'Number'
+                        name: 'NUM'
                     }
                 ],
                 colour: get_color,
@@ -735,8 +709,7 @@ function registerBlocks(Blockly) {
                     },
                     {
                         type: 'input_value',
-                        name: 'NUM',
-                        check: 'Number'
+                        name: 'NUM'
                     }
                 ],
                 colour: get_color,
@@ -780,8 +753,7 @@ function registerBlocks(Blockly) {
                     },
                     {
                         type: 'input_value',
-                        name: 'NUM',
-                        check: 'Number'
+                        name: 'NUM'
                     }
                 ],
                 colour: get_color,
