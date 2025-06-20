@@ -167,8 +167,7 @@ function registerBlocks(Blockly) {
                             [Blockly.Msg.SENGO2_VISION_VISIONFACE, 'Sengo2::kVisionFace'],
                             [Blockly.Msg.SENGO2_VISION_VISION20CLASSES, 'Sengo2::kVision20Classes'],
                             [Blockly.Msg.SENGO2_VISION_VISIONQRCODE, 'Sengo2::kVisionQrCode'],
-                            [Blockly.Msg.SENGO2_VISION_VISIONMOTIONDETECT, 'Sengo2::kVisionMotionDetect'],
-                            [Blockly.Msg.SENGO2_VISION_VISIONCUSTOM, 'Sengo2::kVisionCustom']
+                            [Blockly.Msg.SENGO2_VISION_VISIONMOTIONDETECT, 'Sengo2::kVisionMotionDetect']
                         ]
                     }
                 ],
@@ -296,8 +295,7 @@ function registerBlocks(Blockly) {
                             [Blockly.Msg.SENGO2_VISION_VISIONFACE, 'Sengo2::kVisionFace'],
                             [Blockly.Msg.SENGO2_VISION_VISION20CLASSES, 'Sengo2::kVision20Classes'],
                             [Blockly.Msg.SENGO2_VISION_VISIONQRCODE, 'Sengo2::kVisionQrCode'],
-                            [Blockly.Msg.SENGO2_VISION_VISIONMOTIONDETECT, 'Sengo2::kVisionMotionDetect'],
-                            [Blockly.Msg.SENGO2_VISION_VISIONCUSTOM, 'Sengo2::kVisionCustom']
+                            [Blockly.Msg.SENGO2_VISION_VISIONMOTIONDETECT, 'Sengo2::kVisionMotionDetect']
                         ]
                     },
                     {
@@ -444,8 +442,7 @@ function registerBlocks(Blockly) {
                             [Blockly.Msg.SENGO2_VISION_VISIONFACE, 'Sengo2::kVisionFace'],
                             [Blockly.Msg.SENGO2_VISION_VISION20CLASSES, 'Sengo2::kVision20Classes'],
                             [Blockly.Msg.SENGO2_VISION_VISIONQRCODE, 'Sengo2::kVisionQrCode'],
-                            [Blockly.Msg.SENGO2_VISION_VISIONMOTIONDETECT, 'Sengo2::kVisionMotionDetect'],
-                            [Blockly.Msg.SENGO2_VISION_VISIONCUSTOM, 'Sengo2::kVisionCustom']
+                            [Blockly.Msg.SENGO2_VISION_VISIONMOTIONDETECT, 'Sengo2::kVisionMotionDetect']
                         ]
                     }
                 ],
