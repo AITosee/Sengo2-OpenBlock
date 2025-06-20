@@ -274,8 +274,8 @@ function registerBlocksMessages(Blockly) {
         "SENGO2_VISION_VISIONCUSTOM": "自定义",
         
         // 状态值
-        "SENGO2_STATE_VALUE_X": "中心横坐标",
-        "SENGO2_STATE_VALUE_Y": "中心纵坐标",
+        "SENGO2_STATE_VALUE_X": "横坐标",
+        "SENGO2_STATE_VALUE_Y": "纵坐标",
         "SENGO2_STATE_VALUE_WIDTH": "宽度",
         "SENGO2_STATE_VALUE_HEIGHT": "高度",
         "SENGO2_STATE_VALUE_LABEL": "标签",
@@ -412,8 +412,8 @@ function registerBlocksMessages(Blockly) {
         "SENGO2_VISION_VISIONCUSTOM": "自定義",
         
         // 状态值
-        "SENGO2_STATE_VALUE_X": "中心橫坐標",
-        "SENGO2_STATE_VALUE_Y": "中心縱坐標",
+        "SENGO2_STATE_VALUE_X": "橫坐標",
+        "SENGO2_STATE_VALUE_Y": "縱坐標",
         "SENGO2_STATE_VALUE_WIDTH": "寬度",
         "SENGO2_STATE_VALUE_HEIGHT": "高度",
         "SENGO2_STATE_VALUE_LABEL": "標籤",
