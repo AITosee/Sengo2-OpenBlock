@@ -2,10 +2,10 @@ const Sengo2 = formatMessage => ({
     name: formatMessage({
         id: 'Sengo2.name',
         default: 'Sengo2',
-        description: 'name of Sengo2 vision sensor extension'
+        description: 'Mainstream AI vision module, supporting QR code and face recognition with built-in learning, in a block shell.'
     }),
     extensionId: 'Sengo2',
-    version: '0.1.0',
+    version: '0.1.1',
     supportDevice: ['arduinoUno','arduinoUnoR4Wifi','arduinoUnoR4Minima', 'arduinoNano', 'arduinoLeonardo', 'arduinoMega2560', 
         'arduinoEsp32', 'arduinoEsp8266','arduinoEsp32S3',
         'arduinoK210','arduinoK210MaixDock','arduinoK210Maixduino','arduinoLeonardo',
