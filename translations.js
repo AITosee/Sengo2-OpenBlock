@@ -120,7 +120,7 @@ function registerBlocksMessages(Blockly) {
         "SENGO2_CLASS20_SHEEP": "Sheep",
         "SENGO2_CLASS20_SOFA": "Sofa",
         "SENGO2_CLASS20_TRAIN": "Train",
-        "SENGO2_CLASS20_MONITOR": "Tvonitor",
+        "SENGO2_CLASS20_MONITOR": "Tvmonitor",
         
         // 视觉算法类型
         "SENGO2_VISION_VISIONCOLOR": "Color",
