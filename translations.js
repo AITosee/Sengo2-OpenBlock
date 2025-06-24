@@ -114,13 +114,13 @@ function registerBlocksMessages(Blockly) {
         "SENGO2_CLASS20_TABLE": "DiningTable",
         "SENGO2_CLASS20_DOG": "Dog",
         "SENGO2_CLASS20_HORSE": "Horse",
-        "SENGO2_CLASS20_MOTORBIKE": "MotorBike",
+        "SENGO2_CLASS20_MOTORBIKE": "Motorbike",
         "SENGO2_CLASS20_PERSON": "Person",
         "SENGO2_CLASS20_PLANT": "PottedPlant",
         "SENGO2_CLASS20_SHEEP": "Sheep",
         "SENGO2_CLASS20_SOFA": "Sofa",
         "SENGO2_CLASS20_TRAIN": "Train",
-        "SENGO2_CLASS20_MONITOR": "TvMonitor",
+        "SENGO2_CLASS20_MONITOR": "Tvonitor",
         
         // 视觉算法类型
         "SENGO2_VISION_VISIONCOLOR": "Color",
