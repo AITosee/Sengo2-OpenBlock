@@ -1,11 +1,10 @@
 const Sengo2 = formatMessage => ({
     name: formatMessage({
         id: 'Sengo2.name',
-        default: 'Sengo2',
-        description: 'Mainstream AI vision module, supporting QR code and face recognition with built-in learning, in a block shell.'
+        default: 'Sengo2'
     }),
     extensionId: 'Sengo2',
-    version: '0.1.1',
+    version: '0.1.2',
     supportDevice: ['arduinoUno','arduinoUnoR4Wifi','arduinoUnoR4Minima', 'arduinoNano', 'arduinoLeonardo', 'arduinoMega2560', 
         'arduinoEsp32', 'arduinoEsp8266','arduinoEsp32S3',
         'arduinoK210','arduinoK210MaixDock','arduinoK210Maixduino','arduinoLeonardo',
@@ -14,8 +13,7 @@ const Sengo2 = formatMessage => ({
     iconURL: `assets/sengo2.png`,
     description: formatMessage({
         id: 'Sengo2.description',
-        default: 'Sengo2 vision sensor extension for OpenBlock.',
-        description: 'Description of Sengo2 vision sensor'
+        default: 'Mainstream AI vision module, supporting QR code and face recognition with built-in learning, in a block shell.',
     }),
     featured: true,
     blocks: 'blocks.js',
